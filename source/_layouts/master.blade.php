@@ -16,29 +16,14 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Sanchez" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/main.css" />
-
-@if ($page->production)
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49622799-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-49622799-1');
-</script>
-@endif
-
+    <link rel="stylesheet" href="{{ mix('css/main.css', '') }}" />
+    <script src="{{ mix('js/main.js', '') }}"></script>
 </head>
 
 <body>
 
-
-
   @yield('body')
 
 </body>
-
-<script src="{{ $page->baseUrl }}/js/main.js"></script>
 
 </html>

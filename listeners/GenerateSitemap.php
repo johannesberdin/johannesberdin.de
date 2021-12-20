@@ -11,7 +11,12 @@ class GenerateSitemap
     protected $exclude = [
         '/assets/*',
         '*/favicon.ico',
-        '*/404*'
+        '*/404*',
+        '/css/*',
+        '/img/*',
+        '/js/*',
+        '/fonts/*',
+        '*.json',
     ];
 
     public function handle(Jigsaw $jigsaw)
@@ -25,7 +30,7 @@ class GenerateSitemap
         }
 
         $sitemap = new Sitemap($jigsaw->getDestinationPath() . '/sitemap.xml');
-
+        
         collect($jigsaw->getOutputPaths())
             ->reject(function ($path) {
                 return $this->isExcluded($path);

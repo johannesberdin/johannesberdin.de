@@ -23,7 +23,7 @@ pagination:
         <li><a href="https://www.instagram.com/johannesberdin/"><i class="fa fa-instagram"></i></a></li>
       </ul>
 
-      <!-- <h3>Recent posts</h3>
+      <h3>Recent posts</h3>
 
       <ul class="article-list">
         @foreach ($posts as $post)
@@ -31,7 +31,7 @@ pagination:
           <a href="{{ $post->getUrl() }}" class="article-link">{{ $post->title }}</a>
         </li>
         @endforeach
-      </ul> -->
+      </ul>
     </div>
   </div>
 @endsection
