@@ -1,3 +1,4 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "node_modules/font-awesome/scss/font-awesome";
 $color-white: #FFFFFF;
@@ -7,87 +8,95 @@ $color-light: #E8E8EE;
 $color-blue: #B60CE8;
 $color-orange: #FF710D;
 $color-pink: #F50066;
-$font-family-sans-serif: "Montserrat", sans-serif;
-$font-family-serif: "Sanchez", serif;
-
+$font-family-sans-serif: "Montserrat",
+sans-serif;
+$font-family-serif: "Sanchez",
+serif;
 .text-orange {
-  color: $color-orange;
+    color: $color-orange;
 }
+
 .text-blue {
-  color: $color-blue;
+    color: $color-blue;
 }
+
 .text-grey {
-  color: $color-grey;
+    color: $color-grey;
 }
+
 .text-light {
-  color: $color-light;
+    color: $color-light;
 }
+
 .text-pink {
-  color: $color-pink;
+    color: $color-pink;
 }
+
 .text-light {
-  color: $color-light;
+    color: $color-light;
 }
+
 .text-black {
-  color: $color-black;
+    color: $color-black;
 }
+
 .text-white {
-  color: $color-white;
+    color: $color-white;
 }
 
 .watch {
-  font-family: $font-family-sans-serif;
-  text-align: center;
-  font-size: 12px;
-  padding: 48px 0;
+    font-family: $font-family-sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding: 48px 0;
 }
 
 .watch-blue {
-  background-color: $color-blue;
-  color: $color-white;
+    background-color: $color-blue;
+    color: $color-white;
 }
 
 .watch-orange {
-  background-color: $color-orange;
-  color: $color-white;
+    background-color: $color-orange;
+    color: $color-white;
 }
 
 .watch-pink {
-  background-color: $color-pink;
-  color: $color-white;
+    background-color: $color-pink;
+    color: $color-white;
 }
 
 .watch-light {
-  background-color: $color-light;
-  color: $color-grey;
+    background-color: $color-light;
+    color: $color-grey;
 }
 
 .watch-grey {
-  background-color: $color-grey;
-  color: $color-white;
+    background-color: $color-grey;
+    color: $color-white;
 }
 
 .watch-white {
-  background-color: $color-white;
-  color: $color-grey;
+    background-color: $color-white;
+    color: $color-grey;
 }
 
 .watch-black {
-  background-color: $color-black;
-  color: $color-white;
+    background-color: $color-black;
+    color: $color-white;
 }
 
 html {
-  background-color: $color-white;
+    background-color: $color-white;
 }
 
 body {
-  background-color: $color-white;
-  font-family: $font-family-serif;
-  font-size: 18px;
-  line-height: 1.8;
-  color: $color-grey;
-  padding: 70px 0 50px;
+    background-color: $color-white;
+    font-family: $font-family-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: $color-grey;
+    padding: 70px 0 50px;
 }
 
 h1,
@@ -96,183 +105,186 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-family-sans-serif;
-  color: $color-blue;
-  margin-top: 0;
-  margin-bottom: 0;
+    font-family: $font-family-sans-serif;
+    color: $color-blue;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p,
 ul {
-  margin-top: 0;
-  margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 h1 {
-  font-size: 48px;
-  margin-bottom: 30px;
+    font-size: 48px;
+    margin-bottom: 30px;
 }
 
 h2 {
-  font-size: 36px;
-  color: $color-pink;
-  margin-bottom: 30px;
+    font-size: 36px;
+    color: $color-pink;
+    margin-bottom: 30px;
 }
 
 h3 {
-  font-size: 24px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .label {
-  background-color: transparent;
-  font-size: inherit;
-  padding: inherit;
-  font-weight: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    padding: inherit;
+    font-weight: inherit;
 }
 
 a,
 a::after,
 a:hover {
-  color: $color-orange;
+    color: $color-orange;
 }
 
 .article-date {
-  font-family: $font-family-sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 0;
+    font-family: $font-family-sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .article-date-sm {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .article-modified {
-  font-family: $font-family-sans-serif;
-  font-style: italic;
-  font-size: 12px;
-  color: $color-light;
-  margin-bottom: 0;
+    font-family: $font-family-sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: $color-light;
+    margin-bottom: 0;
 }
 
 .article-list {
-  list-style-type: square;
-  padding-left: 20px;
+    list-style-type: square;
+    padding-left: 20px;
 }
 
 .article-list li {
-  padding-left: -15px;
+    padding-left: -15px;
 }
 
 .article-link {
-  font-family: $font-family-sans-serif;
+    font-family: $font-family-sans-serif;
 }
 
 .article-text {
-  color: $color-black;
+    color: $color-black;
 }
 
 .article-text p {
-  text-align: justify;
+    text-align: justify;
 }
 
 .article-text p:first-of-type:first-letter {
-  -webkit-initial-letter: 3;
-  initial-letter: 3;
-  margin-right: 10px;
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+    margin-right: 10px;
 }
 
 hr {
-  border: 1px solid $color-grey;
+    border: 1px solid $color-grey;
 }
 
 .social-list i.fa {
-  display: inline-block;
-  border-radius: 48px;
-  font-size: 24px;
-  background-color: $color-grey;
-  color: $color-white;
-  padding: 0.5em 0.6em;
+    display: inline-block;
+    border-radius: 48px;
+    font-size: 24px;
+    background-color: $color-grey;
+    color: $color-white;
+    padding: 0.5em 0.6em;
 }
 
 .cv-photo {
-  width: 200px;
-  border-radius: 200px;
-  margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 200px;
+    border-radius: 200px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cv-info {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .cv-dates {
-  color: $color-pink;
-  font-style: italic;
+    color: $color-pink;
+    font-style: italic;
 }
 
 .cv-hr {
-  border-width: 1px;
-  border-style: dashed;
-  border-color: $color-light;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: $color-light;
 }
 
 .btn-print {
-  border: 1px solid $color-pink;
-  color: $color-pink;
+    border: 1px solid $color-pink;
+    color: $color-pink;
 }
 
 .btn-print:hover {
-  background-color: $color-pink;
-  color: $color-white;
+    background-color: $color-pink;
+    color: $color-white;
 }
 
 .btn-print.active,
 .btn-print:active,
 .btn-print:focus {
-  background-image: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: none !important;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none !important;
 }
+
 @media print {
-  body {
-    font-size: 16px;
-    line-height: 1.6;
-    padding: 20px 0;
-  }
-
-  h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-
-  h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-
-  h3 {
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .cv-photo {
-    width: 100px;
-    border-radius: 100px;
-    margin-bottom: 20px;
-  }
-
-  .btn-print {
-    display: none;
-    visibility: hidden;
-  }
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+        padding: 20px 0;
+    }
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cv-photo {
+        width: 100px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+    }
+    .btn-print {
+        display: none;
+        visibility: hidden;
+    }
 }
 
-.img-sm { width: 500px; margin: 20px auto; }
-.img-md { width: 700px; margin: 30px auto; }
+.img-sm {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.img-md {
+    width: 700px;
+    margin: 30px auto;
+}

@@ -1,0 +1,15 @@
+---
+distFolder: build_production
+setup:
+- name: Setup composer
+  action: php-actions/composer@v2
+- name: Setup project
+  action: actions/setup-node@v1
+  properties:
+    node-version: v12.22.3
+prepare:
+  name: Prepare project environment
+  command: npm ci
+build:
+  name: Build project
+  command: npm run prod

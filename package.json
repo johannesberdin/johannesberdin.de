@@ -1,20 +1,29 @@
 {
-  "private": true,
-  "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "font-awesome": "^4.7.0",
-    "gulp": "^3.8.8",
-    "hasbin": "^1.2.3",
-    "jquery": "^3.3.1",
-    "laravel-elixir": "^6.0.0-15",
-    "laravel-elixir-browsersync-official": "^1.0.0",
-    "laravel-elixir-webpack-official": "^1.0.10",
-    "yargs": "^4.6.0"
-  },
-  "scripts": {
-    "deploy": "gulp && ./vendor/bin/jigsaw build production && git add build_production && git commit -m 'Build for production' && git subtree push --prefix build_production origin gh-pages"
-  },
-  "dependencies": {
-    "color-blind": "^0.1.1"
-  }
+    "private": true,
+    "scripts": {
+        "dev": "mix",
+        "watch": "mix watch",
+        "staging": "NODE_ENV=staging mix",
+        "prod": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "bootstrap-sass": "^3.4.1",
+        "font-awesome": "^4.7.0",
+        "fuse.js": "^6.4.6",
+        "highlight.js": "^10.5.0",
+        "jquery": "^3.3.1",
+        "laravel-mix": "^6.0.11",
+        "laravel-mix-jigsaw": "^1.5.0",
+        "postcss": "^8.2.4",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.32.5",
+        "sass-loader": "^10.1.1",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "color-blind": "^0.1.1"
+    }
 }
